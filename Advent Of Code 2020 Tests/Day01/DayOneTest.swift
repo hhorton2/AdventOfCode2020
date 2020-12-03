@@ -12,7 +12,6 @@ class DayOneTest: XCTestCase {
 
     func testPartOne() throws {
         let expenses = getInputFromFile();
-
         let result = DayOne.SolvePartOne(expenses: expenses);
 
         XCTAssertNotEqual(0, result);
