@@ -10,7 +10,10 @@
 		3551D19999C219A527323480 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551D2D76A7EE58462FE1207 /* FileUtil.swift */; };
 		3551D1CF7F1261AC50AD760B /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551DC2DD82BE9A911FEEB1D /* Day02.swift */; };
 		3551D1DD34C1747F30210299 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551D6D28FC9E99D074CEDE8 /* Day01.swift */; };
+		3551D2FFCC01C2E351557427 /* dayThreeInputPartOne.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3551D378AF9A27562E7149FE /* dayThreeInputPartOne.txt */; };
 		3551D3B7D3763FB04590E300 /* DayTwoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551D941C1D5D1E888FE0630 /* DayTwoTest.swift */; };
+		3551D480138E5B0BAEA08A92 /* DayThreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551D73E274585FE1DCF1070 /* DayThreeTest.swift */; };
+		3551D6645721F4F7FE7902B3 /* DayThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551DB43FEBCB4D4B828E7D2 /* DayThree.swift */; };
 		3551D715A001FD4A1FF7871E /* ElfPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551D9551ADE9272FC3F7C8C /* ElfPassword.swift */; };
 		3551D8B863CDFB8B9177AB80 /* dayTwoInputPartOne.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3551D600B3910DE66EE93CA4 /* dayTwoInputPartOne.txt */; };
 		3551DDEF80B8D2CAF6ED2EF6 /* dayOneInputPartOne.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3551D85BFBA74FF5ECC724B7 /* dayOneInputPartOne.txt */; };
@@ -31,11 +34,14 @@
 
 /* Begin PBXFileReference section */
 		3551D2D76A7EE58462FE1207 /* FileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
+		3551D378AF9A27562E7149FE /* dayThreeInputPartOne.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayThreeInputPartOne.txt; sourceTree = "<group>"; };
 		3551D600B3910DE66EE93CA4 /* dayTwoInputPartOne.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayTwoInputPartOne.txt; sourceTree = "<group>"; };
 		3551D6D28FC9E99D074CEDE8 /* Day01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
+		3551D73E274585FE1DCF1070 /* DayThreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayThreeTest.swift; sourceTree = "<group>"; };
 		3551D85BFBA74FF5ECC724B7 /* dayOneInputPartOne.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dayOneInputPartOne.txt; sourceTree = "<group>"; };
 		3551D941C1D5D1E888FE0630 /* DayTwoTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTwoTest.swift; sourceTree = "<group>"; };
 		3551D9551ADE9272FC3F7C8C /* ElfPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElfPassword.swift; sourceTree = "<group>"; };
+		3551DB43FEBCB4D4B828E7D2 /* DayThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayThree.swift; sourceTree = "<group>"; };
 		3551DC2DD82BE9A911FEEB1D /* Day02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
 		393AC272257947A800BE5195 /* StringProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocol.swift; sourceTree = "<group>"; };
 		393D12922576A819002F5681 /* libAdvent Of Code 2020.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libAdvent Of Code 2020.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +77,14 @@
 			path = Day01;
 			sourceTree = "<group>";
 		};
+		3551D5B6AC545045C63AEC1F /* Day03 */ = {
+			isa = PBXGroup;
+			children = (
+				3551DB43FEBCB4D4B828E7D2 /* DayThree.swift */,
+			);
+			path = Day03;
+			sourceTree = "<group>";
+		};
 		3551DAA3DC91EF28BD3496E8 /* Day02 */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +101,15 @@
 				3551D9551ADE9272FC3F7C8C /* ElfPassword.swift */,
 			);
 			path = Day02;
+			sourceTree = "<group>";
+		};
+		3551DF41A93DCE16E5B35662 /* Day03 */ = {
+			isa = PBXGroup;
+			children = (
+				3551D73E274585FE1DCF1070 /* DayThreeTest.swift */,
+				3551D378AF9A27562E7149FE /* dayThreeInputPartOne.txt */,
+			);
+			path = Day03;
 			sourceTree = "<group>";
 		};
 		393AC2712579479000BE5195 /* Extensions */ = {
@@ -121,6 +144,7 @@
 				393AC2712579479000BE5195 /* Extensions */,
 				3551DD464E6EBADEF1F34640 /* Day02 */,
 				3551D0A195F19A84BBA98820 /* Day01 */,
+				3551D5B6AC545045C63AEC1F /* Day03 */,
 			);
 			path = "Advent Of Code 2020";
 			sourceTree = "<group>";
@@ -132,6 +156,7 @@
 				393D12AE2576A9AA002F5681 /* Info.plist */,
 				3551D2D76A7EE58462FE1207 /* FileUtil.swift */,
 				3551DAA3DC91EF28BD3496E8 /* Day02 */,
+				3551DF41A93DCE16E5B35662 /* Day03 */,
 			);
 			path = "Advent Of Code 2020 Tests";
 			sourceTree = "<group>";
@@ -238,6 +263,7 @@
 			files = (
 				3551DDEF80B8D2CAF6ED2EF6 /* dayOneInputPartOne.txt in Resources */,
 				3551D8B863CDFB8B9177AB80 /* dayTwoInputPartOne.txt in Resources */,
+				3551D2FFCC01C2E351557427 /* dayThreeInputPartOne.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +278,7 @@
 				3551D1DD34C1747F30210299 /* Day01.swift in Sources */,
 				3551D1CF7F1261AC50AD760B /* Day02.swift in Sources */,
 				3551D715A001FD4A1FF7871E /* ElfPassword.swift in Sources */,
+				3551D6645721F4F7FE7902B3 /* DayThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +289,7 @@
 				393D12C72576AD91002F5681 /* DayOneTest.swift in Sources */,
 				3551D19999C219A527323480 /* FileUtil.swift in Sources */,
 				3551D3B7D3763FB04590E300 /* DayTwoTest.swift in Sources */,
+				3551D480138E5B0BAEA08A92 /* DayThreeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

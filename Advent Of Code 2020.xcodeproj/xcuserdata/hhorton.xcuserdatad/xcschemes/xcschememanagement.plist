@@ -14,35 +14,35 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>DayOneTest.xcscheme</key>
+		<key>DayThreeTest.testPartOneExample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>DayTwoTest.testPartOneExample.xcscheme</key>
+		<key>DayThreeTest.testPartOne.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>DayTwoTest.testPartOne.xcscheme</key>
+		<key>DayThreeTest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>DayTwoTest.testPartTwoExample.xcscheme</key>
+		<key>DayThreeTest.testPartTwoExample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>DayTwoTest.testPartTwo.xcscheme</key>
+		<key>DayThreeTest.testPartTwo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
